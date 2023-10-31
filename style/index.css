@@ -1,0 +1,55 @@
+.fundo {
+    background-image: url(/image/Index.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh; 
+    margin: 0; 
+}
+
+/*Barra de Menu*/
+
+header{
+    background-color: rgba(0, 0, 0, 0.35);
+    font-size: 24px;
+    padding: 10px;
+    display: inline;
+    width: 1440px;
+    height: 30px;
+
+}
+
+.menu{
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    left: 0;
+
+}
+
+.menu1 {
+display: inline; 
+margin-right: 20px; 
+}
+
+
+.menu2 {
+text-decoration: none; 
+color: white; 
+font-weight: bold; 
+}
+
+/*H1*/
+
+.style{
+    font-size: 60px;
+    color: #daa520;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+

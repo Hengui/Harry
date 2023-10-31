@@ -1,0 +1,135 @@
+.fundo {
+    background-image: url(/image/Personagens.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh; 
+    margin: 0;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.35);
+    font-size: 24px;
+    padding: 10px;
+    display: inline;
+    width: 1440px;
+    height: 30px;
+}
+.menu{
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    left: 0;
+
+}
+
+.menu1 {
+display: inline; 
+margin-right: 20px; 
+}
+
+
+.menu2 {
+text-decoration: none; 
+color: white; 
+font-weight: bold; 
+}
+
+.frame1{
+    background-color: rgba(0, 0, 0, 0.52);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    width: 300px;
+    height: 325px;
+    }
+
+.Lorde{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    }
+
+    .frame2{
+        background-color: rgba(0, 0, 0, 0.52);
+        box-shadow: 0 2px 4px;
+        border-radius: 5px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-200%, -80%);
+        align-items: left;
+        width: 325px;
+        height: 200px;
+    }
+
+    .Harry{
+        font-size: 20px;
+        color: white;
+    }
+
+
+    .frame3{
+        background-color: rgba(0, 0, 0, 0.52);
+        box-shadow: 0 2px 4px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 35%;
+        left: 50%;
+        transform: translate(-200%, 70%);
+        align-items: left;
+        width: 325px;
+        height: 200px;
+    }
+
+    .Rony{
+        font-size: 20px;
+        color: white;
+    }
+
+   
+
+    .frame4{
+        background-color: rgba(0, 0, 0, 0.52);
+        box-shadow: 0 2px 4px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 35%;
+        right: 50%;
+        transform: translate(200%, 70%);
+        align-items: left;
+        width: 325px;
+        height: 200px;
+    }
+
+    .Dumbledore{
+        font-size: 20px;
+        color: white;
+    }
+
+
+    
+.frame5{
+    background-color: rgba(0, 0, 0, 0.52);
+    box-shadow: 0 2px 4px;
+    border-radius: 5px;
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: translate(200%, -80%);
+    align-items: left;
+    width: 325px;
+    height: 200px;
+}
+
+.Hermione{
+    font-size: 20px;
+    color: white;
+}
