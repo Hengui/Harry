@@ -1,5 +1,5 @@
 .fundo {
-    background-image: url(/image/Casas.jpg);
+    background-image: url(/Personagens.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -15,9 +15,7 @@ header{
     display: inline;
     width: 1440px;
     height: 30px;
-
 }
-
 .menu{
     list-style: none; 
     padding: 0;
@@ -53,7 +51,7 @@ font-weight: bold;
     height: 325px;
     }
 
-.Central{
+.Lorde{
     font-size: 20px;
     color: white;
     text-align: center;
@@ -72,21 +70,18 @@ font-weight: bold;
         height: 200px;
     }
 
-    .Gryffindor{
+    .Harry{
         font-size: 20px;
         color: white;
     }
 
-    .red{
-        color: red;
-    }
 
     .frame3{
         background-color: rgba(0, 0, 0, 0.52);
         box-shadow: 0 2px 4px;
         border-radius: 5px;
         position: absolute;
-        bottom: 30%;
+        bottom: 35%;
         left: 50%;
         transform: translate(-200%, 70%);
         align-items: left;
@@ -94,21 +89,19 @@ font-weight: bold;
         height: 200px;
     }
 
-    .Hufflepuff{
+    .Rony{
         font-size: 20px;
         color: white;
     }
 
-    .yellow{
-        color: yellow;
-    }
+   
 
     .frame4{
         background-color: rgba(0, 0, 0, 0.52);
         box-shadow: 0 2px 4px;
         border-radius: 5px;
         position: absolute;
-        bottom: 30%;
+        bottom: 35%;
         right: 50%;
         transform: translate(200%, 70%);
         align-items: left;
@@ -116,14 +109,12 @@ font-weight: bold;
         height: 200px;
     }
 
-    .Ravenclaw{
+    .Dumbledore{
         font-size: 20px;
         color: white;
     }
 
-    .blue{
-        color: blue;
-    }
+
     
 .frame5{
     background-color: rgba(0, 0, 0, 0.52);
@@ -138,17 +129,7 @@ font-weight: bold;
     height: 200px;
 }
 
-.Slytherin{
+.Hermione{
     font-size: 20px;
     color: white;
 }
-
-.green{
-    color: green;
-}
-
-
-
-
-
-
