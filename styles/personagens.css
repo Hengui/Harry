@@ -3,19 +3,25 @@
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    display: flex;
-    height: 100vh; 
+    display: grid;
+    grid-template-rows: repeat(9, 51px);
+    grid-template-columns: 1fr;
+    height: 100vh;
     margin: 0;
 }
 
 header{
     background-color: rgba(0, 0, 0, 0.35);
+    grid-template-columns: repeat(6, 1fr);
     font-size: 24px;
+    display: grid, inline;
     padding: 10px;
-    display: inline;
     width: 1440px;
     height: 30px;
+    position: fixed;
+    justify-items: center;
 }
+
 .menu{
     list-style: none; 
     padding: 0;
@@ -51,12 +57,6 @@ font-weight: bold;
     height: 325px;
     }
 
-.Lorde{
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    }
-
     .frame2{
         background-color: rgba(0, 0, 0, 0.52);
         box-shadow: 0 2px 4px;
@@ -68,11 +68,6 @@ font-weight: bold;
         align-items: left;
         width: 325px;
         height: 200px;
-    }
-
-    .Harry{
-        font-size: 20px;
-        color: white;
     }
 
 
@@ -89,13 +84,7 @@ font-weight: bold;
         height: 200px;
     }
 
-    .Rony{
-        font-size: 20px;
-        color: white;
-    }
-
    
-
     .frame4{
         background-color: rgba(0, 0, 0, 0.52);
         box-shadow: 0 2px 4px;
@@ -108,12 +97,6 @@ font-weight: bold;
         width: 325px;
         height: 200px;
     }
-
-    .Dumbledore{
-        font-size: 20px;
-        color: white;
-    }
-
 
     
 .frame5{
@@ -129,7 +112,13 @@ font-weight: bold;
     height: 200px;
 }
 
-.Hermione{
+.Lorde, .Harry, .Rony, .Dumbledore, .Hermione {
     font-size: 20px;
     color: white;
+
+}
+
+.cor{
+    color: red;
+    text-decoration: none;
 }

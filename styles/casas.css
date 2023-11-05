@@ -3,18 +3,23 @@
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    display: flex;
+    display: grid;
     height: 100vh; 
     margin: 0;
+    grid-template-rows: 100vh;
+    grid-template-columns: 1fr;
 }
 
 header{
     background-color: rgba(0, 0, 0, 0.35);
+    grid-template-columns: repeat(6, 1fr);
     font-size: 24px;
+    display: grid, inline;
     padding: 10px;
-    display: inline;
     width: 1440px;
     height: 30px;
+    position: fixed;
+    justify-items: center;
 
 }
 
@@ -72,14 +77,6 @@ font-weight: bold;
         height: 200px;
     }
 
-    .Gryffindor{
-        font-size: 20px;
-        color: white;
-    }
-
-    .red{
-        color: red;
-    }
 
     .frame3{
         background-color: rgba(0, 0, 0, 0.52);
@@ -94,15 +91,7 @@ font-weight: bold;
         height: 200px;
     }
 
-    .Hufflepuff{
-        font-size: 20px;
-        color: white;
-    }
-
-    .yellow{
-        color: yellow;
-    }
-
+   
     .frame4{
         background-color: rgba(0, 0, 0, 0.52);
         box-shadow: 0 2px 4px;
@@ -116,14 +105,8 @@ font-weight: bold;
         height: 200px;
     }
 
-    .Ravenclaw{
-        font-size: 20px;
-        color: white;
-    }
 
-    .blue{
-        color: blue;
-    }
+  
     
 .frame5{
     background-color: rgba(0, 0, 0, 0.52);
@@ -138,7 +121,7 @@ font-weight: bold;
     height: 200px;
 }
 
-.Slytherin{
+.Gryffindor, .Hufflepuff, .Ravenclaw, .Slytherin {
     font-size: 20px;
     color: white;
 }
@@ -147,7 +130,17 @@ font-weight: bold;
     color: green;
 }
 
+.blue{
+    color: blue;
+}
 
+.yellow{
+    color: yellow;
+}
+
+.red{
+    color: red;
+}
 
 
 
