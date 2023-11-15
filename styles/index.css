@@ -1,3 +1,23 @@
+@media screen and (max-width: 768px) {
+
+    header {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .menu1 {
+        margin-right: 10px;
+    }
+
+    .style {
+        font-size: 40px;
+    }
+}
+
+body{
+    overflow-x: hidden;
+}
+
 .fundo {
     background-image: url(../image/Index.jpg);
     background-size: cover; 
@@ -26,8 +46,9 @@ header{
     padding: 0;
     margin: 0;
     left: 0;
-
 }
+
+
 
 .menu1 {
 display: inline; 
@@ -52,5 +73,4 @@ font-weight: bold;
     transform: translate(-50%, -50%);
     text-align: center;
     }
-
 
