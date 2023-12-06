@@ -1,18 +1,26 @@
 @media screen and (max-width: 768px) {
-    header {
-        font-size: 18px;
-        padding: 5px;
+    .frame1 {
+        padding: 20px;
     }
-
-    .menu1 {
-        margin-right: 10px;
+    .Central,
+    .Gryffindor,
+    .Hufflepuff,
+    .Ravenclaw,
+    .Slytherin {
+        font-size: 16px;
+        line-height: 1.6;
     }
-
-    .style {
-        font-size: 40px;
+    .red,
+    .yellow,
+    .blue,
+    .green {
+        font-size: 14px;
     }
 }
 
+.navbar {
+    background-color: rgba(0, 0, 0, 0.582);
+}
 
 .fundo {
     background-image: url(../image/Casas.jpg);
@@ -26,38 +34,6 @@
     grid-template-columns: 1fr;
 }
 
-header{
-    background-color: rgba(0, 0, 0, 0.35);
-    grid-template-columns: repeat(6, 1fr);
-    font-size: 24px;
-    display: grid, inline;
-    padding: 10px;
-    width: 1440px;
-    height: 30px;
-    position: fixed;
-    justify-items: center;
-
-}
-
-.menu{
-    list-style: none; 
-    padding: 0;
-    margin: 0;
-    left: 0;
-
-}
-
-.menu1 {
-display: inline; 
-margin-right: 20px; 
-}
-
-
-.menu2 {
-text-decoration: none; 
-color: white; 
-font-weight: bold; 
-}
 
 .frame1{
     background-color: rgba(0, 0, 0, 0.52);
@@ -75,7 +51,7 @@ font-weight: bold;
     }
 
 .Central{
-    font-size: 20px;
+    font-size: 17px;
     color: white;
     text-align: center;
     }
@@ -158,6 +134,8 @@ font-weight: bold;
     color: red;
 }
 
-
+.nav-link{
+    color: white;
+}
 
 

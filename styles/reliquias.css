@@ -1,16 +1,19 @@
-@media screen and (max-width: 768px) {
-    header {
-        font-size: 18px;
-        padding: 5px;
-    }
+@media screen and (max-width: 767px) {
 
-    .menu1 {
-        margin-right: 10px;
+    .Lenda,
+    .Varinha,
+    .Pedra,
+    .Capa {
+        font-size: 14px; 
     }
+}
 
-    .style {
-        font-size: 40px;
-    }
+body{
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.582);
 }
 
 
@@ -24,38 +27,6 @@
     grid-template-columns: 1fr;
     height: 100vh;
     margin: 0;
-}
-
-header{
-    background-color: rgba(0, 0, 0, 0.35);
-    grid-template-columns: repeat(6, 1fr);
-    font-size: 24px;
-    display: grid, inline;
-    padding: 10px;
-    width: 1440px;
-    height: 30px;
-    position: fixed;
-    justify-items: center;
-}
-
-.menu{
-    list-style: none; 
-    padding: 0;
-    margin: 0;
-    left: 0;
-
-}
-
-.menu1 {
-display: inline; 
-margin-right: 20px; 
-}
-
-
-.menu2 {
-text-decoration: none; 
-color: white; 
-font-weight: bold; 
 }
 
 .frame1{
@@ -136,3 +107,6 @@ font-weight: bold;
     color: red;
 }
 
+.nav-link{
+    color: white;
+}

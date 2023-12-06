@@ -1,21 +1,30 @@
 @media screen and (max-width: 768px) {
-
-    header {
-        font-size: 18px;
-        padding: 5px;
+    .navbar {
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
-
-    .menu1 {
-        margin-right: 10px;
+    .navbar-toggler {
+        margin-top: 2px;
+        margin-bottom: 2px;
     }
-
-    .style {
-        font-size: 40px;
+    .offcanvas {
+        width: 90%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    #meuBotao {
+        font-size: 14px;
+        padding: 8px 16px;
     }
 }
 
 body{
     overflow-x: hidden;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.582);
 }
 
 .fundo {
@@ -28,53 +37,21 @@ body{
     margin: 0; 
 }
 
-/*Barra de Menu*/
-
-header{
-    background-color: rgba(0, 0, 0, 0.35);
-    grid-template-columns: repeat(6, 1fr);
-    font-size: 24px;
-    padding: 10px;
-    display: inline;
-    width: 1440px;
-    height: 30px;
-
+.style,
+#meuBotao {
+    font-family: 'MagicSchoolOne'; 
+    font-size: 60px; 
+    color: #daa520; 
+    text-align: center; 
+    background: transparent;
+    border: none; 
+    cursor: pointer; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
 
-.menu{
-    list-style: none; 
-    padding: 0;
-    margin: 0;
-    left: 0;
+.nav-link{
+    color: white;
 }
-
-
-
-.menu1 {
-display: inline; 
-margin-right: 20px; 
-}
-
-
-.menu2 {
-text-decoration: none; 
-color: white; 
-font-weight: bold; 
-}
-
-/*H1*/
-
-    .style,
-    #meuBotao {
-        font-family: 'MagicSchoolOne'; 
-        font-size: 60px; 
-        color: #daa520; 
-        text-align: center; 
-        background: transparent;
-        border: none; 
-        cursor: pointer; 
-        position: absolute;
-        top: 50%; 
-        left: 50%;
-        transform: translate(-50%, -50%); 
-    }

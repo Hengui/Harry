@@ -1,16 +1,22 @@
 @media screen and (max-width: 768px) {
-    header {
-        font-size: 18px;
-        padding: 5px;
+    .frame {
+        padding: 20px;
     }
+    .Feitiços p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .text1 {
+        display: none;
+    }
+}
 
-    .menu1 {
-        margin-right: 10px;
-    }
+body{
+    overflow-x: hidden;
+}
 
-    .style {
-        font-size: 40px;
-    }
+.navbar {
+    background-color: rgba(0, 0, 0, 0.582);
 }
 
 
@@ -22,43 +28,10 @@
     display: grid;
     grid-template-rows: repeat(9, 51px);
     grid-template-columns: 1fr;
-    height: 100vh;
+    height: 145vh;
     margin: 0;
 }
 
-header{
-    background-color: rgba(0, 0, 0, 0.35);
-    grid-template-columns: repeat(6, 1fr);
-    font-size: 24px;
-    display: grid, inline;
-    padding: 10px;
-    width: 1440px;
-    height: 30px;
-    position: fixed;
-    justify-items: center;
-
-}
-
-
-.menu{
-    list-style: none; 
-    padding: 0;
-    margin: 0;
-    left: 0;
-
-}
-
-.menu1 {
-display: inline; 
-margin-right: 20px; 
-}
-
-
-.menu2 {
-text-decoration: none; 
-color: white; 
-font-weight: bold; 
-}
 
 .f1{
     background-color: rgba(0, 0, 0, 0.52);
@@ -69,7 +42,7 @@ font-weight: bold;
     transform: translateX(-50%);
     align-items: center;
     width: 1334px;
-    height: 51px;
+    height: 70px;
     text-align: center;
     top: 10%;
 }
@@ -83,9 +56,9 @@ font-weight: bold;
     transform: translateX(-50%);
     align-items: center;
     width: 1334px;
-    height: 51px;
+    height: 70px;
     text-align: center;
-    top: 20%;
+    top: 25%;
   
 }
 .f3{
@@ -97,9 +70,9 @@ font-weight: bold;
     transform: translateX(-50%);
     align-items: center;
     width: 1334px;
-    height: 51px;
+    height: 70px;
     text-align: center;
-    top: 30%;
+    top: 40%;
     
 }
 .f4{
@@ -111,9 +84,9 @@ font-weight: bold;
     transform: translateX(-50%);
     align-items: center;
     width: 1334px;
-    height: 51px;
+    height: 70px;
     text-align: center;
-    top: 40%;
+    top: 55%;
 }
 .f5{
     background-color: rgba(0, 0, 0, 0.52);
@@ -124,9 +97,9 @@ font-weight: bold;
     transform: translateX(-50%);
     align-items: center;
     width: 1334px;
-    height: 51px;
+    height: 70px;
     text-align: center;
-    top: 50%;
+    top: 70%;
 }
 .f6{
     background-color: rgba(0, 0, 0, 0.52);
@@ -137,9 +110,9 @@ font-weight: bold;
     transform: translateX(-50%);
     align-items: center;
     width: 1334px;
-    height: 51px;
+    height: 70px;
     text-align: center;
-    top: 60%;
+    top: 85%;
 }
 .f7{
     background-color: rgba(0, 0, 0, 0.52);
@@ -150,9 +123,9 @@ font-weight: bold;
     transform: translateX(-50%);
     align-items: center;
     width: 1334px;
-    height: 51px;
+    height: 70px;
     text-align: center;
-    top: 70%;
+    top: 100%;
 }
 .f8{
     background-color: rgba(0, 0, 0, 0.52);
@@ -163,9 +136,9 @@ font-weight: bold;
     transform: translateX(-50%);
     align-items: center;
     width: 1334px;
-    height: 51px;
+    height: 70px;
     text-align: center;
-    top: 80%;
+    top: 115%;
 }
 
 .f9{
@@ -177,9 +150,9 @@ font-weight: bold;
     transform: translateX(-50%);
     align-items: center;
     width: 1334px;
-    height: 51px;
+    height: 70px;
     text-align: center;
-    top: 90%;
+    top: 130%;
 }
 
 .Feitiços{
@@ -191,7 +164,13 @@ color: goldenrod;
 
 }
 
+.text1{
+    font-size: 12px;
+}
 
+.nav-link{
+    color: white;
+}
 
 
 
