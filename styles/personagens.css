@@ -9,8 +9,17 @@
     }
 }
 
-body{
-    overflow-x: hidden;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .navbar {
@@ -23,93 +32,28 @@ body{
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    display: grid;
-    grid-template-rows: repeat(9, 51px);
-    grid-template-columns: 1fr;
-    height: 100vh;
-    margin: 0;
+    background-attachment: fixed; 
+    min-height: 100%; 
 }
 
-
-.frame1{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    justify-content: center;
-    margin-top: center;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    align-items: center;
-    width: 300px;
-    height: 325px;
-    }
-
-    .frame2{
-        background-color: rgba(0, 0, 0, 0.52);
-        box-shadow: 0 2px 4px;
-        border-radius: 5px;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-200%, -80%);
-        align-items: left;
-        width: 325px;
-        height: 200px;
-    }
-
-
-    .frame3{
-        background-color: rgba(0, 0, 0, 0.52);
-        box-shadow: 0 2px 4px;
-        border-radius: 5px;
-        position: absolute;
-        bottom: 35%;
-        left: 50%;
-        transform: translate(-200%, 70%);
-        align-items: left;
-        width: 325px;
-        height: 200px;
-    }
-
-   
-    .frame4{
-        background-color: rgba(0, 0, 0, 0.52);
-        box-shadow: 0 2px 4px;
-        border-radius: 5px;
-        position: absolute;
-        bottom: 35%;
-        right: 50%;
-        transform: translate(200%, 70%);
-        align-items: left;
-        width: 325px;
-        height: 200px;
-    }
-
-    
-.frame5{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px;
-    border-radius: 5px;
-    position: absolute;
-    top: 40%;
-    right: 50%;
-    transform: translate(200%, -80%);
-    align-items: left;
-    width: 325px;
-    height: 200px;
+.card{
+    background-color: white;
+    padding: 10px;
+    width: 140px;
+    height: 120px;
+    text-align: center;
+    border-radius: 10px;
 }
 
-.Lorde, .Harry, .Rony, .Dumbledore, .Hermione {
-    font-size: 16px;
-    color: white;
-
+.card_title{
+    font-family: 'MagicSchoolOne'; 
+    font-size: 17px;
 }
 
-.cor{
-    color: red;
-    text-decoration: none;
+.card .card_button{
+    background-color: darkgray;
+    border: none;
+    border-radius: 10px;
 }
 
 .nav-link{
