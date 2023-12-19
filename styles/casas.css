@@ -138,4 +138,11 @@
     color: white;
 }
 
+.white-button {
+    border-color: white; 
+}
 
+.navbar-brand img {
+    max-width: 100%; 
+    height: auto; 
+}

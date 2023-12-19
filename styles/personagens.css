@@ -11,8 +11,7 @@
 
 html, body {
     height: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 35px;
 }
 
 .container{
@@ -56,6 +55,22 @@ html, body {
     border-radius: 10px;
 }
 
+.personagem-imagem {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
 .nav-link{
     color: white;
+}
+
+.white-button {
+    border-color: white; 
+}
+
+.navbar-brand img {
+    max-width: 100%; 
+    height: auto; 
 }
