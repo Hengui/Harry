@@ -16,7 +16,6 @@ const modalContent = `
           <p id="personagemNome"></p>
           <p id="personagemCasa"></p>
           <p id="personagemPatrono"></p>
-          <!-- Adicione outras informações necessárias -->
         </div>
       </div>
     </div>

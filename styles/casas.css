@@ -2,6 +2,7 @@
     .frame1 {
         padding: 20px;
     }
+
     .Central,
     .Gryffindor,
     .Hufflepuff,
@@ -10,129 +11,140 @@
         font-size: 16px;
         line-height: 1.6;
     }
-    .red,
-    .yellow,
-    .blue,
-    .green {
-        font-size: 14px;
+
+    .container-Gryffindor,
+    .container-Corvinal,
+    .container-Slytherin,
+    .container-Hufflepuff {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .content-Gryffindor,
+    .content-Corvinal,
+    .content-Slytherin,
+    .content-Hufflepuff {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .image-container-Corvinal,
+    .image-container-Hufflepuff {
+        margin-left: 0; 
+        margin-bottom: 15px; 
+        order: -1; 
     }
 }
+
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.582);
 }
 
 .fundo {
-    background-image: url(../image/Casas.jpg);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
+    background-color: gainsboro;
     display: grid;
-    height: 100vh; 
-    margin: 0;
-    grid-template-rows: 100vh;
-    grid-template-columns: 1fr;
 }
 
+html, body {
+    height: 100%;
+    margin: 35px;
+}
 
-.frame1{
-    background-color: rgba(0, 0, 0, 0.52);
+.container-Gryffindor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    justify-content: center;
-    margin-top: center;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    align-items: center;
-    width: 300px;
-    height: 325px;
-    }
-
-.Central{
-    font-size: 17px;
-    color: white;
-    text-align: center;
-    }
-
-    .frame2{
-        background-color: rgba(0, 0, 0, 0.52);
-        box-shadow: 0 2px 4px;
-        border-radius: 5px;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-200%, -80%);
-        align-items: left;
-        width: 325px;
-        height: 200px;
-    }
-
-
-    .frame3{
-        background-color: rgba(0, 0, 0, 0.52);
-        box-shadow: 0 2px 4px;
-        border-radius: 5px;
-        position: absolute;
-        bottom: 30%;
-        left: 50%;
-        transform: translate(-200%, 70%);
-        align-items: left;
-        width: 325px;
-        height: 200px;
-    }
-
-   
-    .frame4{
-        background-color: rgba(0, 0, 0, 0.52);
-        box-shadow: 0 2px 4px;
-        border-radius: 5px;
-        position: absolute;
-        bottom: 30%;
-        right: 50%;
-        transform: translate(200%, 70%);
-        align-items: left;
-        width: 325px;
-        height: 200px;
-    }
-
-
-  
+    margin: 0 auto; 
+    width: 80%; 
+    height: 350px;
     
-.frame5{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px;
+}
+
+.content-Gryffindor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.container-Corvinal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    position: absolute;
-    top: 40%;
-    right: 50%;
-    transform: translate(200%, -80%);
-    align-items: left;
-    width: 325px;
-    height: 200px;
+    width: 80%; 
+    margin: 2% auto;    
 }
 
-.Gryffindor, .Hufflepuff, .Ravenclaw, .Slytherin {
+.content-Corvinal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.image-container-Corvinal {
+    margin-left: 20px; 
+    order: 1; 
+}
+
+.container-Slytherin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 0 auto; 
+    width: 80%; 
+    height: 700x;
+    
+}
+
+.content-Slytherin  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.container-Hufflepuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 80%; 
+    margin: 2% auto;    
+}
+
+.content-Hufflepuff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.image-container-Hufflepuff {
+    margin-left: 20px; 
+    order: 1; 
+}
+
+
+.Gryffindor, .Hufflepuff, .Corvinal, .Slytherin {
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
-.green{
-    color: green;
-}
-
-.blue{
-    color: blue;
-}
-
-.yellow{
-    color: yellow;
-}
-
-.red{
-    color: red;
-}
+ 
 
 .nav-link{
     color: white;

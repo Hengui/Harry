@@ -23,149 +23,29 @@ body{
 .fundo{
     background-image: url(../image/Feitiços.png);
     background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
+    background-position: center;
     display: grid;
-    grid-template-rows: repeat(9, 51px);
-    grid-template-columns: 1fr;
-    height: 145vh;
+    height: no-repeat;
     margin: 0;
+
 }
 
 
-.f1{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
+.expelliarmus, .Estupefaça, .Expecto-patronum, .Avada-Kedavra, .Crucio, .Imperio, .Accio, .Lumos, .Alorromora {
+    width: 600px;
+    height: 350px;
+    margin-top: 18%;
+    position: relative;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    width: 1334px;
-    height: 80px;
-    text-align: center;
-    top: 10%;
-}
-
-.f2{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    width: 1334px;
-    height: 80px;
-    text-align: center;
-    top: 25%;
-  
-}
-.f3{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    width: 1334px;
-    height: 80px;
-    text-align: center;
-    top: 40%;
+    transform: translate(-50%, -50%);
     
 }
-.f4{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    width: 1334px;
-    height: 80px;
-    text-align: center;
-    top: 55%;
-}
-.f5{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    width: 1334px;
-    height: 80px;
-    text-align: center;
-    top: 70%;
-}
-.f6{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    width: 1334px;
-    height: 80px;
-    text-align: center;
-    top: 85%;
-}
-.f7{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    width: 1334px;
-    height: 80px;
-    text-align: center;
-    top: 100%;
-}
-.f8{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    width: 1334px;
-    height: 80px;
-    text-align: center;
-    top: 115%;
-}
 
-.f9{
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    width: 1334px;
-    height: 80px;
-    text-align: center;
-    top: 130%;
-}
 
-.Feitiços{
-color: white;
-}
-
-.text{
-color: goldenrod;
-
-}
-
-.text1{
-    font-size: 12px;
+.text-color{
+    color: black;
+    
 }
 
 .nav-link{
