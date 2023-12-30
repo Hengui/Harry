@@ -1,7 +1,4 @@
 @media screen and (max-width: 768px) {
-    .frame1 {
-        padding: 20px;
-    }
 
     .Central,
     .Gryffindor,
@@ -37,6 +34,9 @@
     }
 }
 
+body {
+    padding-top: 60px; 
+}
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.582);
@@ -47,10 +47,6 @@
     display: grid;
 }
 
-html, body {
-    height: 100%;
-    margin: 35px;
-}
 
 .container-Gryffindor {
     display: flex;
@@ -158,3 +154,4 @@ html, body {
     max-width: 100%; 
     height: auto; 
 }
+

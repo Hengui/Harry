@@ -1,26 +1,20 @@
 @media screen and (max-width: 768px) {
-    .navbar {
-        padding-top: 5px;
-        padding-bottom: 5px;
+    .container-home {
+        height: 300px;
     }
-    .navbar-toggler {
-        margin-top: 2px;
-        margin-bottom: 2px;
+    
+    .card {
+        width: 100%;
     }
-    .offcanvas {
-        width: 90%;
-    }
-    h1 {
-        font-size: 24px;
-    }
-    #meuBotao {
-        font-size: 14px;
-        padding: 8px 16px;
+    
+    .card img {
+        height: auto;
     }
 }
 
 body{
     overflow-x: hidden;
+    padding-top: 60px;
 }
 
 .navbar {
@@ -28,13 +22,36 @@ body{
 }
 
 .fundo {
-    background-image: url(../image/Index.jpg);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
+    background-color: gainsboro;
     display: grid;
     height: 100vh; 
-    margin: 0; 
+}
+
+.container-home {
+    background-image: url(../image/Index.jpg);
+    background-size: cover;
+    display: flex;
+    border-radius: 5px;
+    margin: 0 auto; 
+    width: 99%; 
+    height: 450px;
+    
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around; /
+}
+
+.card {
+    width: 325px;
+    margin: 5px; 
+}
+
+.card img {
+    width: 100%; 
+    height: 170px; 
+    object-fit: cover; 
 }
 
 .style,

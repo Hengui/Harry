@@ -2,7 +2,7 @@ const container = document.getElementById('container');
 
 const modalContent = `
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Detalhes do Personagem</h5>
@@ -13,9 +13,40 @@ const modalContent = `
       <div class="modal-body">
         <div class="personagem-info">
           <img src="" alt="Imagem do Personagem" class="personagem-imagem">
-          <p id="personagemNome"></p>
-          <p id="personagemCasa"></p>
-          <p id="personagemPatrono"></p>
+          <table class="table table-bordered">
+            <tr>
+              <th>Espécie</th>
+              <td id="species"></td>
+            </tr>
+            <tr>
+              <th>Cor dos Olhos</th>
+              <td id="eyeColour"></td>
+            </tr>
+            <tr>
+              <th>Cor do Cabelo</th>
+              <td id="hairColour"></td>
+            </tr>
+            <tr>
+              <th>Data de Nascimento</th>
+              <td id="dateOfBirth"></td>
+            </tr>
+            <tr>
+              <th>Ancestral</th>
+              <td id="ancestry"></td>
+            </tr>
+            <tr>
+              <th>Casa</th>
+              <td id="house"></td>
+            </tr>
+            <tr>
+              <th>Gênero</th>
+              <td id="gender"></td>
+            </tr>
+            <tr>
+              <th>Patrono</th>
+              <td id="patronus"></td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
@@ -51,14 +82,17 @@ async function exibirInfo(nomePersonagem) {
     const personagens = await response.json();
     const personagem = personagens.find(p => p.name === nomePersonagem);
 
-    const personagemNome = document.getElementById('personagemNome');
-    const personagemCasa = document.getElementById('personagemCasa');
-    const personagemPatrono = document.getElementById('personagemPatrono');
-    const personagemImagem = document.querySelector('.personagem-imagem');
 
-    personagemNome.textContent = `Nome: ${personagem.name}`;
-    personagemCasa.textContent = `Casa: ${personagem.house || 'Desconhecido'}`;
-    personagemPatrono.textContent = `Patrono: ${personagem.patronus || 'Desconhecido'}`;
+    document.getElementById('species').textContent = personagem.species || 'Desconhecido';
+    document.getElementById('eyeColour').textContent = personagem.eyeColour || 'Desconhecido';
+    document.getElementById('hairColour').textContent = personagem.hairColour || 'Desconhecido';
+    document.getElementById('dateOfBirth').textContent = personagem.dateOfBirth || 'Desconhecido';
+    document.getElementById('ancestry').textContent = personagem.ancestry || 'Desconhecido';
+    document.getElementById('house').textContent = personagem.house || 'Desconhecido';
+    document.getElementById('gender').textContent = personagem.gender || 'Desconhecido';
+    document.getElementById('patronus').textContent = personagem.patronus || 'Desconhecido';
+
+    const personagemImagem = document.querySelector('.personagem-imagem');
     personagemImagem.src = personagem.image;
 
   } catch (error) {

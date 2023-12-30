@@ -1,19 +1,24 @@
 @media screen and (max-width: 768px) {
-    .frame {
-        padding: 20px;
+    body {
+        overflow: auto; 
     }
-    .Feitiços p {
-        font-size: 16px;
-        line-height: 1.6;
-    }
-    .text1 {
-        display: none;
+
+    .expelliarmus,
+    .Estupefaça,
+    .Expecto-patronum,
+    .Avada-Kedavra,
+    .Crucio,
+    .Imperio,
+    .Accio,
+    .Lumos,
+    .Alorromora {
+        width: 300px; 
+        height: 200px; 
+        margin-top: 10%; 
     }
 }
 
-body{
-    overflow-x: hidden;
-}
+
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.582);
@@ -21,20 +26,25 @@ body{
 
 
 .fundo{
-    background-image: url(../image/Feitiços.png);
     background-size: cover; 
     background-position: center;
     display: grid;
-    height: no-repeat;
     margin: 0;
+    height: 100vh; 
+}
 
+.livro{
+    background-image: url(../image/Feitiços.png);
+    background-size: cover; 
+    padding-top: 5px;
 }
 
 
+
 .expelliarmus, .Estupefaça, .Expecto-patronum, .Avada-Kedavra, .Crucio, .Imperio, .Accio, .Lumos, .Alorromora {
-    width: 600px;
-    height: 350px;
-    margin-top: 18%;
+    width: 550px;
+    height: 300px;
+    margin-top: 20%;
     position: relative;
     top: 50%;
     left: 50%;
@@ -45,6 +55,7 @@ body{
 
 .text-color{
     color: black;
+    font-size: 16px;
     
 }
 
@@ -61,7 +72,4 @@ body{
     height: auto; 
 }
   
-
-     
-
         

@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore uma lista de feitiços famosos do mundo de Harry Potter, incluindo Expelliarmus, Estupefaça, Avada Kedavra e outros feitiços poderosos.">
+    <meta name="keywords" content="Harry Potter, feitiços, Expelliarmus, Estupefaça, Avada Kedavra, Expecto Patronum, Maldições Imperdoáveis">
+    <meta name="author" content="Guilherme Henrique Ferreira, João Pedro Caetano de Matos">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/feitiços.css">
     <title>Feitiços</title>
@@ -38,10 +41,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../html/feitiços.html">Feitiços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../html/dev.html">Contatos</a>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -49,6 +48,7 @@
           </nav>
     </header>
       
+    <article class="livro">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <ol class="carousel-indicators">
         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
@@ -65,7 +65,7 @@
         <div class="carousel-item active">
           <img src="https://media.tenor.com/cze_1uQFof0AAAAC/expelliarmus.gif" class="expelliarmus" alt="Expelliarmus">
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-color">Expelliarmus</h5>
+            <h5 class="text-color" id="margin">Expelliarmus</h5>
             <p class="text-color">E o feitiço que mais aparece em Harry Potter é... Expelliarmus! Traduzindo do latim, o encantamento significa "expulsar a arma" e, como o próprio nome já revela, tem como função retirar a arma do oponente (no caso, a varinha). Assim como os demais feitiços da lista, exige bastante precisão e concentração para ser realizado, especialmente no meio de um combate.</p>
           </div>
         </div>
@@ -135,7 +135,8 @@
         <span class="visually-hidden">Next</span>
       </a>
     </div>
-    
+  </article>
+
     <footer class="bg-dark text-light text-center py-4">
       <div class="container-footer">
           <p>Desenvolvedor: Guilherme Henrique Ferreira / Telefone Cel: (43)996972972 / Email: guilherme.hferreira12@gmail.com</p>
